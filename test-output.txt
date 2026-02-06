@@ -1,0 +1,82 @@
+
+> angular-signal-form-patterns@0.0.0 test
+> ng test --watch=false
+
+❯ Building...
+✔ Building...
+Initial chunk files                                         | Names                                                    |  Raw size
+chunk-PHOPAG5A.js                                           | -                                                        |   2.16 MB | 
+polyfills.js                                                | polyfills                                                | 909.23 kB | 
+chunk-J6STNG3W.js                                           | -                                                        | 241.45 kB | 
+spec-app-patterns-basic-form-basic-form.spec.js             | spec-app-patterns-basic-form-basic-form.spec             | 241.00 kB | 
+chunk-MFVNFIX5.js                                           | -                                                        | 186.22 kB | 
+chunk-MXEKWKF3.js                                           | -                                                        |  40.45 kB | 
+test_main.js                                                | test_main                                                |  22.10 kB | 
+spec-app-home-home.spec.js                                  | spec-app-home-home.spec                                  |   7.11 kB | 
+spec-app-app.spec.js                                        | spec-app-app.spec                                        |   4.15 kB | 
+spec-app-patterns-async-validation-async-validation.spec.js | spec-app-patterns-async-validation-async-validation.spec |   2.32 kB | 
+spec-app-patterns-dynamic-forms-dynamic-forms.spec.js       | spec-app-patterns-dynamic-forms-dynamic-forms.spec       |   2.18 kB | 
+spec-app-patterns-nested-forms-nested-forms.spec.js         | spec-app-patterns-nested-forms-nested-forms.spec         |   2.14 kB | 
+jasmine-cleanup-0.js                                        | jasmine-cleanup-0                                        | 519 bytes | 
+styles.css                                                  | styles                                                   |  96 bytes | 
+
+                                                            | Initial total                                            |   3.82 MB
+
+Application bundle generation complete. [1.269 seconds] - 2026-02-06T17:05:53.283Z
+
+[32m06 02 2026 18:05:53.344:INFO [karma-server]: [39mKarma v6.4.4 server started at http://localhost:9876/
+[32m06 02 2026 18:05:53.344:INFO [launcher]: [39mLaunching browsers Chrome with concurrency unlimited
+[32m06 02 2026 18:05:53.348:INFO [launcher]: [39mStarting browser Chrome
+[32m06 02 2026 18:05:56.752:INFO [Chrome 144.0.0.0 (Mac OS 10.15.7)]: [39mConnected on socket RSJRUW5PDCJ9ep1LAAAB with id 13614483
+Chrome 144.0.0.0 (Mac OS 10.15.7): Executed 0 of 7[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[31mChrome 144.0.0.0 (Mac OS 10.15.7) App should create the app FAILED[39m
+	ɵNotFound: NG0201: No provider found for `ActivatedRoute`. Source: DynamicTestModule. Find more at https://v21.angular.dev/errors/NG0201
+	error properties: Object({ code: -201, ngErrorCode: -201, ngErrorMessage: 'No provider found for `ActivatedRoute`.', ngTokenPath: [ 'ActivatedRoute' ] })
+	ɵNotFound: NG0201: No provider found for `ActivatedRoute`. Source: DynamicTestModule. Find more at https://v21.angular.dev/errors/NG0201
+	    at createRuntimeError (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:600:17)
+	    at NullInjector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:881:21)
+	    at R3Injector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:1206:27)
+	    at R3Injector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:1206:27)
+	    at ChainedInjector.get (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:7507:32)
+	    at lookupTokenUsingModuleInjector (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:890:31)
+	    at getOrCreateInjectable (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:913:10)
+	    at ɵɵdirectiveInject (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:7541:17)
+	    at NodeInjectorFactory._RouterLink_Factory [as factory] (ng:///_RouterLink/ɵfac.js:5:7)
+	    at getNodeInjectable (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:1044:38)
+Chrome 144.0.0.0 (Mac OS 10.15.7): Executed 1 of 7[31m (1 FAILED)[39m (0 secs / 0.02 secs)
+[1A[2K[31mChrome 144.0.0.0 (Mac OS 10.15.7) App should render title FAILED[39m
+	ɵNotFound: NG0201: No provider found for `ActivatedRoute`. Source: DynamicTestModule. Find more at https://v21.angular.dev/errors/NG0201
+	error properties: Object({ code: -201, ngErrorCode: -201, ngErrorMessage: 'No provider found for `ActivatedRoute`.', ngTokenPath: [ 'ActivatedRoute' ] })
+	ɵNotFound: NG0201: No provider found for `ActivatedRoute`. Source: DynamicTestModule. Find more at https://v21.angular.dev/errors/NG0201
+	    at createRuntimeError (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:600:17)
+	    at NullInjector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:881:21)
+	    at R3Injector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:1206:27)
+	    at R3Injector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:1206:27)
+	    at ChainedInjector.get (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:7507:32)
+	    at lookupTokenUsingModuleInjector (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:890:31)
+	    at getOrCreateInjectable (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:913:10)
+	    at ɵɵdirectiveInject (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:7541:17)
+	    at NodeInjectorFactory._RouterLink_Factory [as factory] (ng:///_RouterLink/ɵfac.js:5:7)
+	    at getNodeInjectable (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:1044:38)
+Chrome 144.0.0.0 (Mac OS 10.15.7): Executed 2 of 7[31m (2 FAILED)[39m (0 secs / 0.022 secs)
+[1A[2KChrome 144.0.0.0 (Mac OS 10.15.7): Executed 3 of 7[31m (2 FAILED)[39m (0 secs / 0.024 secs)
+[1A[2K[31mChrome 144.0.0.0 (Mac OS 10.15.7) Home should create FAILED[39m
+	ɵNotFound: NG0201: No provider found for `ActivatedRoute`. Source: DynamicTestModule. Find more at https://v21.angular.dev/errors/NG0201
+	error properties: Object({ code: -201, ngErrorCode: -201, ngErrorMessage: 'No provider found for `ActivatedRoute`.', ngTokenPath: [ 'ActivatedRoute' ] })
+	ɵNotFound: NG0201: No provider found for `ActivatedRoute`. Source: DynamicTestModule. Find more at https://v21.angular.dev/errors/NG0201
+	    at createRuntimeError (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:600:17)
+	    at NullInjector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:881:21)
+	    at R3Injector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:1206:27)
+	    at R3Injector.get (node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:1206:27)
+	    at ChainedInjector.get (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:7507:32)
+	    at lookupTokenUsingModuleInjector (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:890:31)
+	    at getOrCreateInjectable (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:913:10)
+	    at ɵɵdirectiveInject (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:7541:17)
+	    at NodeInjectorFactory._RouterLink_Factory [as factory] (ng:///_RouterLink/ɵfac.js:5:7)
+	    at getNodeInjectable (node_modules/@angular/core/fesm2022/_debug_node-chunk.mjs:1044:38)
+Chrome 144.0.0.0 (Mac OS 10.15.7): Executed 4 of 7[31m (3 FAILED)[39m (0 secs / 0.031 secs)
+[1A[2KChrome 144.0.0.0 (Mac OS 10.15.7): Executed 5 of 7[31m (3 FAILED)[39m (0 secs / 0.032 secs)
+[1A[2KChrome 144.0.0.0 (Mac OS 10.15.7): Executed 6 of 7[31m (3 FAILED)[39m (0 secs / 0.049 secs)
+[1A[2KChrome 144.0.0.0 (Mac OS 10.15.7): Executed 7 of 7[31m (3 FAILED)[39m (0 secs / 0.05 secs)
+[1A[2KChrome 144.0.0.0 (Mac OS 10.15.7): Executed 7 of 7[31m (3 FAILED)[39m (0.066 secs / 0.05 secs)
+[31mTOTAL: 3 FAILED, 4 SUCCESS[39m
