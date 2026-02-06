@@ -1,6 +1,6 @@
 # Angular Signal Forms Patterns
 
-Real-world examples for Angular 20+ Signal Forms. Copy, paste, ship.
+Real-world examples for Angular 21+ Signal Forms. Copy, paste, ship.
 
 [![Angular](https://img.shields.io/badge/Angular-21+-DD0031?style=flat&logo=angular&logoColor=white)](https://angular.dev)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -24,9 +24,9 @@ This repo has **production-ready patterns** you can copy into your apps today.
 | # | Pattern | Description | Status |
 |---|---------|-------------|--------|
 | 01 | [Basic Form](#01-basic-form) | Login form with validation | ✅ Ready |
-| 02 | [Nested Forms](#02-nested-forms) | User profile with address subform | ✅ Ready |
-| 03 | [Dynamic Arrays](#03-dynamic-arrays) | Invoice with add/remove line items | ✅ Ready |
-| 04 | [Async Validation](#04-async-validation) | Check username availability via API | ✅ Ready |
+| 02 | [Nested Forms](#02-nested-forms) | User profile with address subform | 🔜 Coming |
+| 03 | [Dynamic Arrays](#03-dynamic-arrays) | Invoice with add/remove line items | 🔜 Coming |
+| 04 | [Async Validation](#04-async-validation) | Check username availability via API | 🔜 Coming |
 | 05 | Conditional Validation | Field X required if Y has value | 🔜 Coming |
 | 06 | Custom Controls | Build controls without CVA | 🔜 Coming |
 | 07 | Multi-Step Wizard | Step-by-step form flow | 🔜 Coming |
